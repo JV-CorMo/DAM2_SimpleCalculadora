@@ -22,22 +22,23 @@ public class AppCalculadora {
         System.out.print("\nIntroduce el signo de calculo * + - /: ");
         signo = sc.next();
 
+        
         switch(signo){
             case "+":
-                System.out.print("Resultado es:");
-                 sumar();
+                System.out.print("Resultado es: " + sumar());
+
                 break;
             case "-":
-                System.out.print("Resultado es:");
-                restar();
+                System.out.print("Resultado es: " + restar());
+
                 break;
             case "*":
-                System.out.print("Resultado es:");
-                multiplica();
+                System.out.print("Resultado es: " + multiplica());
+
                 break;
             case "/":
-                System.out.print("Resultado es:");
-               dividir();
+                System.out.print("Resultado es: " + dividir());
+
                 break;
             default:
                 System.out.println("Opción no es válida.");
